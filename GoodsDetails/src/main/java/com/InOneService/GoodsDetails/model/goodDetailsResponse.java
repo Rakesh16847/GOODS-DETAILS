@@ -1,0 +1,21 @@
+package com.InOneService.GoodsDetails.model;
+
+import lombok.AllArgsConstructor;
+import lombok.Builder;
+import lombok.Data;
+import lombok.NoArgsConstructor;
+@Data
+@NoArgsConstructor
+@AllArgsConstructor
+@Builder
+public class goodDetailsResponse {
+
+
+        private long Id;
+        private String name;
+        private String amount;
+        private String quantity;
+
+
+}
+
